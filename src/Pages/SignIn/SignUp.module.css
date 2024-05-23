@@ -1,0 +1,98 @@
+/* .container{
+    width: 1728px;
+height: 868px;
+top: -485px;
+left: -800px;
+padding: 191px 442px 191px 442px;
+} */
+
+.container {
+  height: 100%;
+  min-height: 100vh;
+  background: #cfd8e9;
+  margin-left: -290px;
+  margin-top: -70px;
+  padding: 0rem;
+}
+
+.container > div {
+  padding-top: 10%;
+}
+
+.subDiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  width: 50%;
+  height: 442px;
+  min-height: calc(100vh - 50%);
+  margin-left: 25%;
+}
+
+.subDiv1 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 18px 18px 0px 18px;
+  z-index: 1;
+}
+
+.subDiv2 {
+  background: #316fcd;
+  border-radius: 0px 18px 18px 18px;
+  margin-left: -50px;
+}
+
+.subDiv1_SubDiv1 {
+  padding: 10%;
+}
+
+.subDiv2_SubDiv1 {
+  padding-left: 20%;
+}
+
+/* .signUp {
+  color: #cfd8e9;
+} */
+
+.logo {
+  display: flex;
+  justify-content: left;
+}
+
+.logoimage {
+  width: 30px;
+  height: 30px;
+  padding-top: 17px;
+}
+
+.codehub {
+  color: #316fcd;
+  padding-left: 5px;
+}
+
+.buttons_style {
+  display: flex;
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 20%;
+  border-color: #ededed;
+  border-radius: 5px;
+  background: #ededed;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.lablestyle {
+  margin-top: -12px;
+  font-size: small;
+}
+
+.img2 {
+  width: 90%;
+  padding-top: 22%;
+}
+
+.buttons_style:hover {
+  background: #d0def3;
+}

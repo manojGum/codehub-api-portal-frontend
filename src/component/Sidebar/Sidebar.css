@@ -1,0 +1,60 @@
+.sidebarContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 15px auto;
+}
+
+.sidebarContainer > div {
+  display: flex;
+  width: 150px;
+  padding: 8px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 90px;
+  color: #313131;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.959px;
+  flex: 1 0 0;
+  cursor: pointer;
+}
+
+.side_arrow_icon {
+  margin: auto;
+  margin-right: -4px;
+  margin-top: 7px;
+}
+
+.selectIcon {
+  color: white !important;
+  background : #2368ca
+}
+
+.dasboard:hover {
+  color: white !important;
+  background: #609EF6;
+}
+
+.Services:hover {
+  color: white !important;
+  background: #609EF6;
+} 
+
+.Snippets:hover {
+  color: white !important;
+  background: #609EF6;
+} 
+
+.PoCs:hover {
+  color: white !important;
+  background: #609EF6;
+} 
+
+.Packages:hover {
+  color: white !important;
+  background: #609EF6;
+} 

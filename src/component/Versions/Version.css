@@ -1,0 +1,39 @@
+.text-blue{
+    color:#5e72e4 !important;
+}
+
+.fw-bold {
+    font-weight: 700!important;
+}
+.fs-2 {
+    font-size: calc(1.325rem + .9vw)!important;
+}
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.5rem 0.5rem;
+    color: var(--bs-table-color-state,var(--bs-table-color-type,var(--bs-table-color)));
+    background-color: var(--bs-table-bg);
+    border-bottom-width: var(--bs-border-width);
+    box-shadow: inset 0 0 0 9999px var(--bs-table-bg-state,var(--bs-table-bg-type,var(--bs-table-accent-bg)));
+}
+
+.dashboard_children_header__2gC_o {
+    color: #767676;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    padding: 1rem 0 0 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+a > code {
+    color: inherit;
+}

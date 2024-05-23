@@ -1,0 +1,45 @@
+.mainDiv {
+    display:flex;
+    column-gap: 20px;
+    /* border: 1px solid black; */
+    cursor: pointer;
+}
+
+.subDiv1 > img{
+    width: 85px;
+height: 85px;
+flex-shrink: 0;
+border-radius: 10px;
+background-color: aqua;
+}
+
+.subdiv2P{ 
+    color: #3F3F3F;
+    width: 90px;
+    text-align: center;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.706px; 
+    margin-bottom: -9px;
+    border-radius: 2px;
+    background-color: rgba(219, 235, 249, 1);
+}
+
+.subdiv2h1 {
+    color: #3F3F3F;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 23.706px;
+margin-bottom: 4px;
+}
+
+.subdiv2p{
+    color: #3F3F3F;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px; /* 146.154% */
+letter-spacing: 0.26px;
+}

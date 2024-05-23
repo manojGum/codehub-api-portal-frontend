@@ -1,0 +1,45 @@
+.header {
+  position: relative;
+}
+.pt_4 {
+  padding-top: 1.5rem !important;
+}
+.px_5 {
+  padding-right: 3rem !important;
+  padding-left: 3rem !important;
+}
+.d_flex {
+  display: flex !important;
+}
+
+.me_auto {
+  margin-right: auto !important;
+}
+.fs_2 {
+  font-size: calc(1.325rem + 0.9vw) !important;
+}
+.fw_bold {
+  font-weight: 500 !important;
+}
+.text_dark {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+}
+
+.addPan {
+  text-align: right;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.text_primary {
+  color: #5e72e4 !important;
+}
+.m_1 {
+  margin: 0.25rem !important;
+}
+.faq_body {
+  background-color: transparent;
+  padding-bottom: 20px;
+  word-wrap: break-word;
+}

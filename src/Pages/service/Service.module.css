@@ -1,0 +1,47 @@
+.mainDiv {
+    padding-top: 60px;
+}
+
+.p{
+    font-weight: 700!important;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-style: normal;
+    line-height: 23.706px;   
+}
+
+.span{
+    color: #383838;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.activeTab{
+    text-decoration: none;
+    color: #525f7f;
+    background-color: #e1f4fd;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 10px 26px !important;
+    font-size: 18px !important;
+    cursor: pointer;
+}
+
+.inActiveTab{
+    text-decoration: none;
+    color: #525f7f;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 10px 26px !important;
+    font-size: 18px !important;
+    cursor: pointer;
+}
+
+.subDiv{
+    display: flex;
+    column-gap: 20px;
+    border-bottom: solid 2px #85c8ea !important;
+    padding-top: 20px;
+}

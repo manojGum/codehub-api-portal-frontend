@@ -1,0 +1,20 @@
+.searchSelect {
+    border-radius: 5px;
+    border: 1px solid #959595;
+    width: 290px;
+    height: 43px;
+    flex-shrink: 0;
+    stroke-width: 2px;
+    stroke: #959595;
+    color: #323232;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.24px;
+}
+
+
+
+

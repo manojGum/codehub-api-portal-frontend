@@ -1,0 +1,60 @@
+.justify_content_between {
+  justify-content: space-between;
+}
+
+.fs_3 {
+  font-size: 1.3rem !important;
+}
+
+.fw_normal {
+  margin-top: 0;
+  font-weight: 400 !important;
+  line-height: 1.5;
+}
+
+.p_tag {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.text_wrap {
+  white-space: normal !important;
+}
+
+.w_50 {
+  width: 50% !important;
+}
+
+.fw_bold {
+  font-weight: 700 !important;
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  -ms-overflow-style: scrollbar;
+  white-space: pre-wrap !important;
+  display: block;
+  font-size: 87.5%;
+  color: rgb(56, 56, 56);
+
+  font-family: Monaco, Monospace;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+#nameLink {
+  text-decoration: underline;
+  color: #525f7f;
+}
+
+#nameLink:hover {
+  text-decoration: none;
+  color: #2368ca;
+}

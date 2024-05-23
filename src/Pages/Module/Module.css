@@ -1,0 +1,86 @@
+.mapingDiv {
+  display: flex;
+  /* border: 1px solid black; */
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 15px 15px;
+  width: 46%;
+  border-radius: 10px;
+  border: 1px solid #d6d6d6;
+  background: #f9f9f9;
+}
+
+.title {
+  color: #3f3f3f;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.706px;
+  padding-left: 16px;
+}
+
+.shortDescription {
+  padding: 0px 16px;
+}
+
+.author {
+  padding: 0px 16px 16px 16px;
+  color: #878787;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.publish {
+  padding: 2px 16px 16px 0px;
+}
+
+.Icon {
+  width: 22px;
+  height: 22px;
+  color: #474747;
+  flex-shrink: 0;
+
+}
+
+.cardIcons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  cursor: pointer;
+  width: 22px;
+}
+
+.NoDataFound {
+  color: #3F3F3F;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23.706px;
+  /* 98.776% */
+}
+
+.NoDataFoundImg {
+  padding-top: 150px;
+  padding-left: 10px;
+  width: 155.43px;
+  height: 103.613px;
+}
+
+.NoDataFoundDiv {
+  margin-left: 38%;
+}
+
+.myquery5span{
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgba(219, 235, 249, 1);
+  padding: 0px 8px 0px 8px;
+  float: right;
+  margin-right: 20px;
+  border-radius: 2px;
+}
